@@ -4,8 +4,8 @@
 [![NPM version](https://badge.fury.io/js/spdy.svg)](http://badge.fury.io/js/spdy)
 
 With this module you can create [HTTP2][0] / [SPDY][1] servers
-in node.js with natural http module interface and fallback to regular https
-(for browsers that don't support neither HTTP2, nor SPDY yet).
+in node.js with the natural http module interface and fallback to regular https
+(for browsers that don't support either HTTP2 or SPDY yet).
 
 This module named `spdy` but it [provides](https://github.com/indutny/node-spdy/issues/269#issuecomment-239014184) support for both http/2 (h2) and spdy (2,3,3.1). Also, `spdy` is compatible with Express.
 
